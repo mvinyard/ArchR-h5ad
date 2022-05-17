@@ -2,6 +2,22 @@
 
 A lightweight python package to parse **[`.arrow`]()** files produced by [**ArchR**](https://www.archrproject.com) - to [**AnnData**](https://anndata.readthedocs.io/en/stable/).
 
+## Installation
+
+Install the last-released distrubution from PYPI:
+
+```BASH
+pip install ArchR_h5ad
+```
+
+Alternatively, clone the repo to install the development version, locally:
+
+```BASH
+git clone https://github.com/mvinyard/ArchR_h5ad.git; cd ArchR_h5ad
+
+pip install -e .
+```
+
 ## A brief example
 
 As an example, we will use the data from the ArchR [hematopoiesis tutorial](https://www.archrproject.com/articles/Articles/tutorial.html#creating-an-archrproject-1).
