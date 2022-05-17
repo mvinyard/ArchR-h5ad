@@ -19,8 +19,8 @@ setup(
     ],
     install_requires=[
         "anndata>=0.7.8",
-	"pandas>=1.3.5",
-	"licorice_font>=0.0.3",
+        "licorice_font>=0.0.3",
+        "tqdm>=4.64.0",
     ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
