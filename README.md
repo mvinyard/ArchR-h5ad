@@ -1,10 +1,10 @@
-# ArchR_h5ad
+# ArchR-h5ad
 
 A lightweight python package to parse **[`.arrow`]()** files produced by [**ArchR**](https://www.archrproject.com) - to [**AnnData**](https://anndata.readthedocs.io/en/stable/).
 
 ## Installation
 
-Install the last-released distrubution from PYPI:
+Install the last-released ([**`v0.0.1`**](https://pypi.org/project/ArchR-h5ad/0.0.1/)) distrubution from [PYPI](https://pypi.org/project/ArchR-h5ad/):
 
 ```BASH
 pip install ArchR_h5ad
