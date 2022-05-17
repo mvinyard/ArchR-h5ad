@@ -13,7 +13,7 @@ pip install ArchR_h5ad
 Alternatively, clone the repo to install the development version, locally:
 
 ```BASH
-git clone https://github.com/mvinyard/ArchR_h5ad.git; cd ArchR_h5ad
+git clone https://github.com/mvinyard/ArchR-h5ad.git; cd ArchR_h5ad
 
 pip install -e .
 ```
