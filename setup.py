@@ -16,6 +16,10 @@ setup(
     description="ArchR_h5ad: Read .arrow files (from ArchR) to anndata.",
     packages=[
         "ArchR_h5ad",
+        "ArchR_h5ad._compose_adata",
+        "ArchR_h5ad._main",
+        "ArchR_h5ad._parse_arrow",
+        "ArchR_h5ad._utility_functions",
     ],
     install_requires=[
         "anndata>=0.7.8",
