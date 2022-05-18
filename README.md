@@ -1,5 +1,9 @@
 # ArchR-h5ad
 
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ArchR-h5ad.svg)](https://pypi.python.org/pypi/ArchR-h5ad/)
+[![PyPI version](https://badge.fury.io/py/ArchR-h5ad.svg)](https://badge.fury.io/py/ArchR-h5ad)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 A lightweight python package to parse **[`.arrow`]()** files produced by [**ArchR**](https://www.archrproject.com) - to [**AnnData**](https://anndata.readthedocs.io/en/stable/).
 
 ## Installation
