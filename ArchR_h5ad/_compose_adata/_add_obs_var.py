@@ -16,7 +16,9 @@ def _add_obs(metadata, str_col_keys=["CellNames"]):
     metadata_dict = {}
 
     for key, value in metadata.items():
-        if value.shape[0] == 1:
+        if value is None:
+            metadata_dict[key] = value
+        elif value.shape[0] == 1:
             metadata_dict[key] = value[:][0].decode("utf-8")
         else:
             obs_dict[key] = value[:]
