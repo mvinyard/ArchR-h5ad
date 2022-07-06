@@ -6,7 +6,7 @@ import sys
 
 setup(
     name="ArchR_h5ad",
-    version="0.0.11",
+    version="0.0.12",
     python_requires=">3.6.0",
     author="Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard",
     author_email="mvinyard@broadinstitute.org",

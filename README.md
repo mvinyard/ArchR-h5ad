@@ -8,7 +8,7 @@ A lightweight python package to parse **[`.arrow`]()** files produced by [**Arch
 
 ## Installation
 
-Install the last-released ([**`v0.0.11`**](https://pypi.org/project/ArchR-h5ad/0.0.11/)) distrubution from [PYPI](https://pypi.org/project/ArchR-h5ad/):
+Install the last-released ([**`v0.0.12`**](https://pypi.org/project/ArchR-h5ad/0.0.12/)) distrubution from [PYPI](https://pypi.org/project/ArchR-h5ad/):
 
 ```BASH
 pip install ArchR_h5ad
