@@ -43,7 +43,7 @@ class _Arrow:
         
         self._use_matrix = use_matrix
         self._outpath = outpath
-        
+
         if not self._silent:
             mtx = licorice_font.font_format(self._use_matrix, ["BOLD", "BLUE"])
             print("Reading ArchR {} to AnnData".format(mtx))
