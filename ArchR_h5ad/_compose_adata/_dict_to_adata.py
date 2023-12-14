@@ -19,8 +19,9 @@ def _dict_to_adata(DataDict):
 
     _ordered_matrices = []
     for chrom in _ordered_chromosomes():
-        if not DataDict[chrom] is None:
-            _ordered_matrices.append(DataDict[chrom])
+        if chrom in DataDict:
+            if DataDict[chrom] is not None:
+                _ordered_matrices.append(DataDict[chrom])
             
     X_ = scipy.sparse.hstack(_ordered_matrices)
     
